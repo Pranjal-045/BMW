@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body theme="black">
+    <div class="main w-full">
+        <!-- Navbar for Cars Website -->
+        <nav class="section text-white fixed w-full top-0 shadow-md z-10">
+            <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <!-- Logo -->
+            <div class="relative">
+                <!-- Image with mix-blend-darken -->
+                <a href="#">
+                  <img 
+                    class="h-[50px] w-[50px]" 
+                    style="mix-blend-mode: darken;"
+                    src="https://www.citypng.com/public/uploads/preview/bmw-white-logo-hd-png-701751694708574rsodsw0tk5.png?v=2024121712" 
+                    alt="BMW Logo">
+                </a>
+              </div>
+  
+            <!-- Navigation Links -->
+            <ul class="hidden md:flex space-x-8">
+                <li><a href="#home" class="hover:text-gray-400 transition">Home</a></li>
+                <li><a href="#cars" class="hover:text-gray-400 transition">Cars</a></li>
+                <li><a href="#services" class="hover:text-gray-400 transition">Services</a></li>
+                <li><a href="#about" class="hover:text-gray-400 transition">About Us</a></li>
+                <li><a href="#contact" class="hover:text-gray-400 transition">Contact</a></li>
+            </ul>
+        </nav>
+        <div data-color="black" class="home section w-full h-screen relative">
+            <div class="w-full">
+                <div class="btmtext absolute z-[4] bottom-[7%] w-[210px] left-[3%]">
+                    <h1>We create bold experiences. Cars. Designs. Technology. For real drivers. Real journeys.</h1>
+                </div>
+                <div style="--clip: 100%" class="vdodiv w-full h-screen absolute z-[3] top-0 left-0 bg-black">
+                    <video autoplay loop muted class="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 overflow-hidden" src="the-soul-of-bmw-1080-publer.io.mp4"></video>
+                </div>
+                <div class="marqueecontainer w-full h-screen relative overflow-hidden">
+                    <div class="heading absolute top-[7%] left-1/2 -translate-x-1/2 w-80 text-center">
+                        <h1 class="text-xl font-regular">We design automotive experiences that feel more intuitive:</h1>
+                    </div>
+                    <div class="slidesm absolute scale-[1] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%]">
+                        <div class="row lft -translate-x-3/4 w-full flex items-center gap-10">
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-8xl">empathetic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Innovative</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover over" src="https://images.unsplash.com/photo-1570987374002-0bc59bf40c8b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Dynamic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover" src="https://plus.unsplash.com/premium_photo-1697968235133-f0b29502683f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Effortless</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover" src="https://plus.unsplash.com/premium_photo-1726862962730-978a6e389c15?q=80&w=1943&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Innovative</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1530025769859-16a85d782882?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Dynamic</h1>
+                            </div>
+                        </div>
+                        <div class="row rgt -translate-x-1/3 w-full flex items-center gap-10">
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-8xl">empathetic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Innovative</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover over" src="https://images.unsplash.com/photo-1570987374002-0bc59bf40c8b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Dynamic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover" src="https://plus.unsplash.com/premium_photo-1697968235133-f0b29502683f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Effortless</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover" src="https://plus.unsplash.com/premium_photo-1726862962730-978a6e389c15?q=80&w=1943&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Innovative</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1530025769859-16a85d782882?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Dynamic</h1>
+                            </div>
+                        </div>
+                        <div class="row lft -translate-x-1/4 w-full flex items-center gap-10">
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-8xl">empathetic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Innovative</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover over" src="https://images.unsplash.com/photo-1570987374002-0bc59bf40c8b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Dynamic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover" src="https://plus.unsplash.com/premium_photo-1697968235133-f0b29502683f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Effortless</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover" src="https://plus.unsplash.com/premium_photo-1726862962730-978a6e389c15?q=80&w=1943&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Innovative</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1530025769859-16a85d782882?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Dynamic</h1>
+                            </div>
+                        </div>
+                        <div class="row rgt -translate-x-2/3 w-full flex items-center gap-10">
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-8xl">empathetic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Innovative</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover over" src="https://images.unsplash.com/photo-1570987374002-0bc59bf40c8b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Dynamic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover" src="https://plus.unsplash.com/premium_photo-1697968235133-f0b29502683f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Effortless</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover" src="https://plus.unsplash.com/premium_photo-1726862962730-978a6e389c15?q=80&w=1943&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Innovative</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1530025769859-16a85d782882?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-sans font-['sans-serif'] text-7xl">Dynamic</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-color="onyx" class="craft section w-full flex gap-10 justify-between items-start px-10 py-10 relative">
+            <div class="ltext w-[40%] sticky top-20 left-0">
+                <p class="text-2xl font-light leading-[2rem]">BMW Explained is a celebration of innovation, craftsmanship, and design, founded on the belief that engineering can redefine mobility to inspire progress. We put passion and precision at the heart of every vehicle, with technology that enhances performance, elevates experiences, and shapes the future of driving.</p>
+                <h1 class="text-[6rem] leading-[6.5rem] mt-20">BMW explained</h1>
+                <div class="w-fit px-10 py-5 border-[1px] border-[--dcyan]">
+                    <div class="masker overflow-hidden">
+                        <span class="inline-block">Our Solutions</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cards w-1/2 text-2xl flex flex-col justify-center items-center gap-10">
+                <div 
+                class="h-[36vh] w-[30vw] bg-black-500 overflow-hidden relative group" 
+                onclick="window.location.href='https://www.bmw.com/en/design/the-bmw-kidney-grille-through-time.html'" 
+                style="cursor: pointer;"
+            >
+                <img class="h-full w-full object-cover transition duration-300 ease-in-out group-hover:opacity-70" 
+                    src="https://images.unsplash.com/photo-1516610540415-d1b25463c7f3?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                    alt="">
+                <div class="absolute bottom-0 left-0 p-4 bg-black bg-opacity-50 text-white">
+                    <h2 class="text-lg">BMW explained</h2>
+                    <h1 class="text-xl font-bold">BMW History: 17 iconic double kidney grille designs</h1>
+                </div>
+            </div>
+
+                <div class="h-[36vh] w-[30vw] bg-black-500 overflow-hidden relative group"
+                    onclick="window.location.href='https://www.bmw.com/en/freude/the-bmw-hofmeister-kink.html'" 
+                    style="cursor: pointer;"
+                > <!-- Added relative group -->
+                    <img class="h-full w-full object-cover transition duration-300 ease-in-out group-hover:opacity-70" 
+                        src="https://images.unsplash.com/photo-1459603677915-a62079ffd002?q=80&w=1834&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                        alt="">
+                    <div class="absolute w-full bottom-0 left-0 p-4 bg-black bg-opacity-50 text-white"> <!-- Positioned to lower-left -->
+                        <h2 class="text-lg">BMW explained</h2>
+                        <h1 class="text-xl font-bold">A tribute to the Hofmeister kink</h1>
+                    </div>
+                </div>
+                <div class="h-[36vh] w-[30vw] bg-black-500 overflow-hidden relative group"
+                    onclick="window.location.href='https://www.bmw.com/en/magazine/automotive-life/my-bmw-app-wallpapers.html'" 
+                    style="cursor: pointer;"
+                > <!-- Added relative group -->
+                    <img class="h-full w-full object-cover transition duration-300 ease-in-out group-hover:opacity-70" 
+                        src="https://images.unsplash.com/photo-1441148345475-03a2e82f9719?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                        alt="">
+                    <div class="absolute w-full bottom-0 left-0 p-4 bg-black bg-opacity-50 text-white"> <!-- Positioned to lower-left -->
+                        <h1 class="text-xl font-bold">BMW Wallpapers</h1>
+                    </div>
+                </div>
+                <div class="h-[36vh] w-[30vw] bg-black-500 overflow-hidden relative group"
+                    onclick="window.location.href='https://www.bmw.com/en/automotive-life/BMW-naming-system.html'" 
+                    style="cursor: pointer;"
+                > <!-- Added relative group -->
+                    <img class="h-full w-full object-cover transition duration-300 ease-in-out group-hover:opacity-70" 
+                        src="https://images.unsplash.com/photo-1733147703370-169a77564c60?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                        alt="">
+                    <div class="absolute bottom-0 left-0 p-4 bg-black bg-opacity-50 text-white"> <!-- Positioned to lower-left -->
+                        <h2 class="text-lg">BMW explained</h2>
+                        <h1 class="text-xl font-bold">Unravelling the mystery of the BMW naming system</h1>
+                    </div>
+                </div>
+                <div class="h-[36vh] w-[30vw] bg-black-500 overflow-hidden relative group"
+                    onclick="window.location.href='https:https://www.bmw.com/en/automotive-life/bimmer-beamer-nickname-origin.html'" 
+                    style="cursor: pointer;"
+                > <!-- Added relative group -->
+                    <img class="h-full w-full object-cover transition duration-300 ease-in-out group-hover:opacity-70" 
+                        src="https://images.unsplash.com/photo-1680844540129-48dacc7d5d88?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                        alt="">
+                    <div class="absolute w-full bottom-0 left-0 p-4 bg-black bg-opacity-50 text-white"> <!-- Positioned to lower-left -->
+                        <h2 class="text-lg">BMW explained</h2>
+                        <h1 class="text-xl font-bold">What's in a nickname? <br> How a BMW became known as bemmer</h1>
+                    </div>
+                </div>
+            </div>            
+            
+        </div>
+        <div data-color="salmon" class="real section w-full">
+            <div class="cont h-[400vh] relative">
+                <div class="slides overflow-hidden sticky top-0 left-0 flex w-full h-[100vh] gap-20">
+                    <div class="slide flex items-center justify-center w-full h-screen flex-shrink-0">
+                        <div class="text font-["sans"]">
+                            <h1 class="text-8xl">Real Drive,</h1>
+                            <h1 class="text-8xl">Real Mastery</h1>
+                        </div>
+                        <div class="image absolute rounded-full overflow-hidden top-1/2 -translate-y-1/2 right-0 translate-x-1/2 w-[20rem] h-[20rem] bg-red-600">
+                            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1661050629713-832e4f77d0b2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        </div>
+                    </div>
+                    <div class="slide w-full h-screen flex justify-center items-center flex-shrink-0 relative">
+                        <div class="img1 absolute z-[3] left-[15%] top-2/3 -translate-y-1/3  rounded-full overflow-hidden w-[15rem] h-[15rem]">
+                            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1597353946119-888dbb405217?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        </div>
+                        <div class="img1 absolute z-[3] left-1/2 top-0 -translate-y-1/2 -translate-x-1/2 rounded-full overflow-hidden w-[20rem] h-[20rem]">
+                            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1661050629684-1c3109469524?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        </div>
+                        <div class="image absolute rounded-full overflow-hidden top-1/2 -translate-y-1/2 right-0 translate-x-1/2 w-[20rem] h-[20rem] bg-red-600">
+                            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1525860389552-77ee69a28b7d?q=80&w=1947&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        </div>
+                        <div class="w-[60%] text-center relative font-["sans"]">
+                            <h3 class="absolute w-1/3 text-left font-semibold leading-7 tracking-tight text-[1.2rem] top-0 left-0 -translate-x-1/3 -translate-y-1/2">We're driven to inspire every journey and create the ultimate driving experience as we push boundaries. Here's how we're doing it.</h3>
+                            <h1 class="font-semibold text-[12rem] leading-none text-white">2.55M</h1>
+                            <h3 class="text-5xl leading-none tracking-tight">Real drivers — real journeys — we create machines that move you.</h3>
+                        </div>
+                    </div>
+                    <div class="slide w-full h-screen flex items-center justify-center flex-shrink-0 relative">
+                        <img class="w-60 absolute top-0 left-1/2 -translate-x-1/2" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/65ea1ba6eb9637155282b42f_Lightning.webp" alt="">
+                        <img class="absolute top-1/2 left-[30%] -translate-x-1/2" width="100" height="100" src="https://img.icons8.com/doodle/100/tornado.png" alt="tornado"/>
+                        <!-- <div class="img1 absolute z-[3] left-3/4 top-[70%] -translate-y-1/2 -translate-x-1/2 rounded-full overflow-hidden w-[5rem] h-[5rem]">
+                            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1661050629684-1c3109469524?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        </div> -->
+                        <div class="img1 absolute z-[3] left-[70%] top-1/4 -translate-y-1/3  rounded-full overflow-hidden w-[15rem] h-[15rem]">
+                            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1535815593759-6a2f6897a1ac?q=80&w=1906&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        </div>
+                        <div class="w-[60%] text-center relative">
+                            <h3 class="absolute w-1/3 text-left font-semibold leading-7 tracking-tight text-[1.2rem] top-0 left-0 -translate-x-1/3 -translate-y-1/2">Our team is global and diverse, united by a passion for driving excellence and innovation.</h3>
+                            <h1 class="font-semibold text-[12rem] leading-none text-white">110</h1>
+                            <h3 class="text-5xl leading-none tracking-tight">Nationalities Represented on Our Team.</h3>
+                        </div>
+                    </div>
+                    <div class="slide w-full h-screen flex-shrink-0 bg-blue-500"></div>
+                </div>
+            </div>
+        </div>
+        <div data-color="white" class="model h-[1550px] section py-20">
+            <h1 class="text-center text-8xl tracking-tight italic">Our Models</h1>
+            <div class="list w-full px-10 h-32 mt-10">
+                <div class="listelem border-b-2 border-black w-full py-[3rem] relative"
+                    onclick="window.location.href='https://www.bmw.in/en/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-&detail=BMW-i_THE-BMW-iX1-LONG-WHEELBASE'" 
+                    style="cursor: pointer;"
+                >
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl italic">01</h3>
+                            <h1 class="text-5xl italic">BMW i Series</h1>
+                        </div>
+                        <h3 class="3-xl">Electric</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-500">
+                        <img class="object-cover w-full h-full" src="https://images.hindustantimes.com/auto/img/2023/09/25/1600x900/BMW_iX1_1695615165480_1695615174815.jpg" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] bottom-0 left-0 w-full h-[0%] bg-blue-300"></div>
+                </div>
+                
+                <div class="listelem border-b-2 border-black w-full py-[3rem] relative"
+                    onclick="window.location.href='https://www.bmw.in/en/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-&detail=X_THE-BMW-X1'" 
+                    style="cursor: pointer;"
+                >
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl italic">02</h3>
+                            <h1 class="text-5xl italic">BMW X Series</h1>
+                        </div>
+                        <h3 class="3-xl">SUV</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-500">
+                        <img class="object-cover w-full h-full" src="https://bmw.scene7.com/is/image/BMW/bmw-x-series-overview-ix1-u11BEV?wid=3000&hei=3000" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] bottom-0 left-0 w-full h-[0%] bg-blue-300"></div>
+                </div>
+                
+                <div class="listelem border-b-2 border-black w-full py-[3rem] relative"
+                    onclick="window.location.href='https://www.bmw.in/en/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-&detail=M_THE-NEW-BMW-M2'" 
+                    style="cursor: pointer;"
+                >
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl italic">03</h3>
+                            <h1 class="text-5xl italic">BMW M Series</h1>
+                        </div>
+                        <h3 class="3-xl">Performance</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-500">
+                        <img class="object-cover h-full w-full" src="https://www.stratstone.com/-/media/stratstone/bmw/new-cars/m3/touring/2024-facelift/bmw-m3-touring-grille-720x405px.ashx?mh=1440&la=en&h=405&w=720&mw=2560&hash=30008EFB4723FFE75F22FB61DF6F803D" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] bottom-0 left-0 w-full h-[0%] bg-blue-300"></div>
+                </div>
+                
+                <div class="listelem border-b-2 border-black w-full py-[3rem] relative"
+                    onclick="window.location.href='https://www.bmw.in/en/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-&detail=7_THE-BMW-7-SERIES-SEDAN'" 
+                    style="cursor: pointer;"
+                >
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl italic">04</h3>
+                            <h1 class="text-5xl italic">BMW 7 Series</h1>
+                        </div>
+                        <h3 class="3-xl">Sedan</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-500">
+                        <img class="object-cover h-full w-full" src="https://i.ytimg.com/vi/lJYe-94wC48/sddefault.jpg" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] bottom-0 left-0 w-full h-[0%] bg-blue-300"></div>
+                </div>
+                
+                <div class="listelem border-b-2 border-black w-full py-[3rem] relative"
+                    onclick="window.location.href='https://www.bmw.in/en/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-&detail=5_THE-BMW-5-SERIES-LONG-WHEELBASE'" 
+                    style="cursor: pointer;"
+                >
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl italic">05</h3>
+                            <h1 class="text-5xl italic">BMW 5 Series</h1>
+                        </div>
+                        <h3 class="3-xl">Sedan</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-500">
+                        <img class="object-cover h-full w-full" src="https://imgd-ct.aeplcdn.com/664x415/n/cw/ec/96443/5-series-exterior-left-front-three-quarter.jpeg?q=80" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] bottom-0 left-0 w-full h-[0%] bg-blue-300"></div>
+                </div>
+                
+                <div class="listelem border-b-2 border-black w-full py-[3rem] relative"
+                    onclick="window.location.href='https://www.bmw.in/en/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-&detail=3_THE-BMW-M340i'" 
+                    style="cursor: pointer;"
+                >
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl italic">06</h3>
+                            <h1 class="text-5xl italic">BMW 3 Series</h1>
+                        </div>
+                        <h3 class="3-xl">Sedan</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-500">
+                        <img class="object-cover h-full w-full" src="https://www.financialexpress.com/wp-content/uploads/2021/03/bmw-3-series-gran-limousine.jpg" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] bottom-0 left-0 w-full h-[0%] bg-blue-300"></div>
+                </div>
+                
+                <div class="listelem border-b-2 border-black w-full py-[3rem] relative"
+                    onclick="window.location.href='https://www.bmw.in/en/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-&detail=2_THE-BMW-2-SERIES-GRAN-COUP%C3%89'" 
+                    style="cursor: pointer;"
+                >
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl italic">07</h3>
+                            <h1 class="text-5xl italic">BMW 2 Series</h1>
+                        </div>
+                        <h3 class="3-xl">Sedan / Coupe</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-500">
+                        <img class="object-cover h-full w-full" src="https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/Images/all-models/BMW%20Series/bmw-2-series/2023/exterior-highlights.jpg" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] bottom-0 left-0 w-full h-[0%] bg-blue-300"></div>
+                </div>
+                
+                <div class="listelem border-b-2 border-black w-full py-[3rem] relative"
+                    onclick="window.location.href='https://www.bmw.in/en/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-&detail=Z4_THE-NEW-BMW-Z4-M40i'" 
+                    style="cursor: pointer;"
+                >
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl italic">08</h3>
+                            <h1 class="text-5xl italic">BMW Z4 Series</h1>
+                        </div>
+                        <h3 class="3-xl">Convertible</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full bg-red-500">
+                        <img class="object-cover h-full w-full" src="https://www.usnews.com/object/image/00000191-d3d7-d1ed-a191-fbf70ada0000/bl79098.jpg?update-time=1725835970669&size=responsiveGallery" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] bottom-0 left-0 w-full h-[0%] bg-blue-300"></div>
+                </div>
+                
+            </div>
+        </div>
+        <div data-color="white" class="para w-full h-[70vh] flex flex-col items-center justify-center gap-10 section">
+            <div class="text w-[70%]">
+                <h3 class="textpara text-3xl font-light text-center">a Product Manager at BMW M, elaborated on the BMW M8, emphasizing its exceptional blend of luxury and sportiness. He explained that the M8 stands as a true member of the luxury class, showcasing this through every aspect of its design and performance. The car combines top-tier technology, premium materials, and incredible performance, offering a refined yet exhilarating driving experience. Leppert pointed out that the M8 isn’t just a vehicle; it embodies the perfect harmony between sophisticated luxury and thrilling sportiness, making it a standout in its category.</h3>
+            </div>
+            <div class="pers flex flex-col justify-center items-center text-center">
+                <div class="image w-32 h-32 bg-red-500 overflow-hidden rounded-full">
+                    <img class="object-cover w-full h-full" src="https://media.licdn.com/dms/image/v2/C5603AQEIMNbhbB1A2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1658911429530?e=2147483647&v=beta&t=PvkSLCWMFOheO7hRzBknXUmmRAXAKW45TWAw-WLL11o" alt="">
+                </div>
+                <h1>Saurabh Sinha</h1>
+                <h3>Product Manager @BMWIndia</h3>
+            </div>
+        </div>
+        <div data-color="black" class="capsule w-full h-screen flex items-center justify-between mt-60 px-32 section relative">
+    <!-- BMW brand accent element -->
+    <div class="bmw-brand-stripes absolute top-20 left-32 h-2 w-32 flex">
+        <div class="h-full w-1/3 bg-blue-600"></div>
+        <div class="h-full w-1/3 bg-purple-600"></div>
+        <div class="h-full w-1/3 bg-red-600"></div>
+    </div>
+    
+    <div class="left w-1/3 h-full flex flex-col justify-between py-10">
+        <h1 class="text-3xl leading-[2.8rem]">Stay at the forefront of automotive innovation and leadership with BMW, where cutting-edge technology meets visionary design.</h1>
+        <div>
+            <h1 class="text-7xl">Explore our Insights</h1>
+            <div class="w-fit px-10 mt-10 py-5 border-[1px] border-[--dcyan] hover:bg-[--dcyan] hover:text-black transition-all duration-300 cursor-pointer">
+                <div class="masker overflow-hidden">
+                    <span class="inline-block transition-transform duration-300 hover:translate-y-[-5px]">Our Solutions</span>
+                </div>
+            </div>
+        </div>    
+    </div>
+    
+    <div class="right h-full w-1/2 flex gap-5 items-center">
+        <div class="capsule px-10 h-3/4 w-1/2 relative overflow-hidden group">
+            <img src="https://i.pinimg.com/1200x/f0/90/ed/f090edc3dc9e5fa30d85f6e4ddcba72c.jpg" alt="BMW Electric Vehicle" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+            <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-black to-transparent">
+                <h3 class="text-xl font-semibold text-white">Electric Innovation</h3>
+                <p class="text-sm text-gray-300 mt-2">The future of sustainable luxury</p>
+            </div>
+        </div>
+        <div class="capsule px-10 h-3/4 w-1/2 relative overflow-hidden group">
+            <img src="https://i.pinimg.com/736x/60/48/60/6048604883e380d70aeb710ce2061467.jpg" alt="BMW Interior" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+            <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-black to-transparent">
+                <h3 class="text-xl font-semibold text-white">Premium Experience</h3>
+                <p class="text-sm text-gray-300 mt-2">Craftsmanship meets technology</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
